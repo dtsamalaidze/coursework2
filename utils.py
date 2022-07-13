@@ -32,18 +32,16 @@ class Posts:
                 comments.append(comment)
         return comments
 
-
-"""
-    def get_posts_by_user(self, user_name: str) -> [list, str]:
-        result = []
-        is_author = False
+    def get_post_by_word(self, word):
+        posts = []
         for post in self.get_posts_all():
-            if post['poster_name'].lower() == user_name.lower():
-                is_author = True
-                result.append(post)
-        if not is_author:
-            return 'Пользователь не зарегистрирован'
-        else:
-            return result
+            if word.lower() in post['content'].lower():
+                posts.append(post)
+        return posts
+
+"""s = Posts()
+
+
+print(len(s.get_post_by_word('опять')))
 
 """
