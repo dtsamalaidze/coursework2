@@ -39,9 +39,18 @@ class Posts:
                 posts.append(post)
         return posts
 
-"""s = Posts()
+
+    def get_post_by_user(self, user):
+        posts = []
+        for post in self.get_posts_all():
+            if post['poster_name'].lower() == user.lower():
+                posts.append(post)
+        return posts
+
+"""
+s = Posts()
 
 
-print(len(s.get_post_by_word('опять')))
+print(s.get_post_by_user('leo'))
 
 """
