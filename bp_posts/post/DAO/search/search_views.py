@@ -1,5 +1,5 @@
 from flask import Blueprint, request, render_template
-from utils import Posts
+from bp_posts.post.DAO.posts import Posts
 
 search_app = Blueprint('search', __name__, template_folder='templates', static_folder='static')
 posts = Posts()
