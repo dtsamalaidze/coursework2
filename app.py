@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from bp_posts.post.DAO.post.post_views import post_app
-from main_views import main_app
+from bp_posts.post.DAO.main.main_views import main_app
 from bp_posts.post.DAO.user_feed.user_feed_views import user_feed_app
 from bp_posts.post.DAO.search.search_views import search_app
 

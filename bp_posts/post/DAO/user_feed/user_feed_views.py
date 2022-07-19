@@ -12,5 +12,5 @@ posts = Posts()
 def user_feed_page(username):
     logging.info(f'Открываю станицу с постами пользователя: {username}')
     post = posts.get_post_by_user(str(username))
-    return render_template('index.html', posts=post)
+    return render_template('user-feed.html', posts=post)
 
