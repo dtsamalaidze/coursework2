@@ -1,7 +1,8 @@
 import logging
-from flask import Blueprint, render_template, abort
+from flask import Blueprint, render_template
 from bp_posts.post.DAO.comment import Comment
 from bp_posts.post.DAO.posts import Posts
+from exceptions.exceptions import FileNotFound
 
 
 logging.basicConfig(filename="basic.log", level=logging.INFO)
@@ -26,7 +27,7 @@ def post_page(uid):
                                )
     except TypeError:
         logging.info(f'Не удалось открыть станицу с индексом: {uid}')
-        abort(404)
+        raise FileNotFound(f'Не удалось открыть станицу с индексом: {uid}')
 
 
 

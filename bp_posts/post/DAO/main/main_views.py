@@ -1,5 +1,4 @@
 from flask import Blueprint, render_template
-
 from bp_posts.post.DAO.posts import Posts
 
 main_app = Blueprint('main', __name__, template_folder='templates', static_folder='static')

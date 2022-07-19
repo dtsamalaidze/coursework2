@@ -1,20 +1,24 @@
 import json
-import config
+
+from config import Config
+from exceptions.exceptions import FileTypeError
 
 
 class Comment:
-    def __init__(self):
-        ...
+    def __init__(self, path=Config.COMMENT_PATH):
+        self.path = path
 
     def get_comments_all(self) -> list[dict]:
         """
         Загружает все комментарии из файла json
         :return: Список словарей с комментариями
         """
-
-        with open(config.Config.COMMENT_PATH, 'r', encoding='utf-8') as f:
-            comments = json.load(f)
-        return comments
+        try:
+            with open(self.path, 'r', encoding='utf-8') as f:
+                comments = json.load(f)
+            return comments
+        except AttributeError:
+            raise FileTypeError()
 
     def get_comments_by_post_id(self, post_id: int) -> list[dict]:
         """
@@ -23,8 +27,7 @@ class Comment:
         :return: список словаей
         """
         comments = []
-        if type(post_id) != int:
-            raise TypeError(f'{post_id} не является числом')
+
         for comment in self.get_comments_all():
             if comment['post_id'] == post_id:
                 comments.append(comment)

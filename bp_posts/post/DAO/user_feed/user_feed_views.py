@@ -1,5 +1,4 @@
 import logging
-
 from flask import Blueprint, render_template
 from bp_posts.post.DAO.posts import Posts
 

@@ -1,43 +1,28 @@
 import json
-import config
+
+from config import Config
+from exceptions.exceptions import FileTypeError
+
 
 class Posts:
-    def __init__(self,
-                 poster_name='',
-                 poster_avatar='',
-                 pic='',
-                 content='',
-                 views_count=0,
-                 likes_count=0,
-                 pk=0
-                 ):
-        self.poster_name = poster_name
-        self.poster_avatar = poster_avatar
-        self.pic = pic
-        self.content = content
-        self.views_count = views_count
-        self.likes_count = likes_count
-        self.pk = pk
+    def __init__(self, path=Config.POSTS_PATH):
+        self.path = path
 
     def __repr__(self):
-        return f'Posts('\
-                f'{self.poster_name}, '\
-                f'{self.poster_avatar}, '\
-                f'{self.pic}, '\
-                f'{self.content}, '\
-                f'{self.views_count}, '\
-                f'{self.likes_count}, '\
-                f'{self.pk}'\
-                f')'
+        return 'Абстракция постов'
 
     def get_posts_all(self) -> list[dict]:
         """
         Функция загружает все посты из файла json
         :return: Список словарей с постами
         """
-        with open(config.Config.POSTS_PAHT, 'r', encoding='utf-8') as f:
-            posts = json.load(f)
-            return posts
+        try:
+            with open(self.path, 'r', encoding='utf-8') as f:
+                posts = json.load(f)
+                return posts
+        except AttributeError:
+            raise FileTypeError()
+
 
     def get_post_by_post_id(self, post_id: int) -> dict:
         """

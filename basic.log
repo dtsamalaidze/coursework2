@@ -904,3 +904,332 @@ INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 04:01:18] "[36mGET /user_feed/static/c
 INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 04:01:18] "[36mGET /user_feed/static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 04:01:18] "[36mGET /user_feed/static/img/eye.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 04:01:18] "[36mGET /user_feed/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с постами пользователя: leo
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 19:09:25] "GET /user_feed/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 19:09:25] "[36mGET /user_feed/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 19:09:25] "[36mGET /user_feed/static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 19:09:25] "[36mGET /user_feed/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 19:09:25] "[36mGET /user_feed/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/bp_posts/post/DAO/comment.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:38] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с постами пользователя: leo
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:40] "GET /user_feed/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:40] "[36mGET /user_feed/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:40] "[36mGET /user_feed/static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:40] "[36mGET /user_feed/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:40] "[36mGET /user_feed/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:44] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:44] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:44] "[36mGET /post/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:44] "[36mGET /post/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:47] "[35m[1mGET /post/9 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:47] "[36mGET /post/9?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:47] "[36mGET /post/9?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:48] "[36mGET /post/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:36:48] "[36mGET /post/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:37:35] "[35m[1mGET /post/9 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:37:35] "[36mGET /post/9?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:37:35] "[36mGET /post/9?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:37:35] "[36mGET /post/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:37:35] "[36mGET /post/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:root:Открываю станицу с индексом: 5
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:29] "GET /post/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:29] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:29] "[36mGET /post/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:29] "[36mGET /post/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 5
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:29] "GET /post/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:29] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:29] "[36mGET /post/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:29] "[36mGET /post/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:33] "[33mGET /post/9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:38:33] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/exceptions/exceptions.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/exceptions/exceptions.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/exceptions/exceptions.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:55] "[33mGET /post/9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:55] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:56] "[33mGET /post/9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:56] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:56] "[33mGET /post/9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:56] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:56] "[33mGET /post/9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:56] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:57] "[33mGET /post/9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:57:57] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 8
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:58:17] "GET /post/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:58:17] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:58:17] "[36mGET /post/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:58:17] "[36mGET /post/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 81
+INFO:root:Не удалось открыть станицу с индексом: 81
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:58:22] "[33mGET /post/81 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 22:58:22] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:22] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:22] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:29] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:29] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:29] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:29] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:00:29] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:03:03] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:03:03] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:03:03] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:03:03] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:03:03] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:16] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:16] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:16] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:16] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:16] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:32] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:32] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:32] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:32] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:32] "[36mGET /post/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:53] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:05:53] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:04] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:04] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:09] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:21] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:21] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 8
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:24] "[35m[1mGET /post/8 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:24] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:34] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:36] "[35m[1mGET /post/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:36] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 8
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:39] "[35m[1mGET /post/8 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:39] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 8
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:57] "[35m[1mGET /post/8 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:57] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/bp_posts/post/DAO/comment.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:root:Открываю станицу с индексом: 8
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:58] "GET /post/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:59] "[36mGET /post/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:59] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:07:59] "[36mGET /post/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 8
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:09] "GET /post/8 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:09] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:09] "[36mGET /post/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:09] "[36mGET /post/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/bp_posts/post/DAO/posts.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:root:Открываю станицу с индексом: 8
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:10] "[35m[1mGET /post/8 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:10] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/bp_posts/post/DAO/posts.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:root:Открываю станицу с индексом: 9
+INFO:root:Не удалось открыть станицу с индексом: 9
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:25] "[33mGET /post/9 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:25] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:29] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:29] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:29] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:09:29] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/bp_posts/post/DAO/user_feed/user_feed_views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:12] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:12] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с постами пользователя: leo
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:14] "GET /user_feed/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:14] "[36mGET /user_feed/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:14] "[36mGET /user_feed/static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:14] "[36mGET /user_feed/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:14] "[36mGET /user_feed/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:15] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:16] "[33mGET /bookmarks.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:22] "GET /search/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:22] "[36mGET /search/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:25] "GET /search/?search=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:25] "[36mGET /search/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:25] "[36mGET /search/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:25] "[36mGET /search/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:27] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:27] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:27] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:27] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:28] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:28] "[36mGET /post/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:28] "[36mGET /post/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jul/2022 23:31:28] "[36mGET /post/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/main_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/main_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/main_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/main_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Detected change in '/home/dmitriy/PycharmProjects/coursework2/tests/conftest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 702-200-820
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:38:06] "GET /post/1 HTTP/1.1" 200 -
+INFO:root:Открываю станицу с индексом: 1
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:38:31] "GET /post/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:38:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:38:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:39:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:39:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:39:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:40:19] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [20/Jul/2022 00:40:33] "[31m[1mDELETE / HTTP/1.1[0m" 405 -
