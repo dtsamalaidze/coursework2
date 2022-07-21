@@ -2,7 +2,7 @@ import logging
 from flask import Blueprint, render_template
 from bp_posts.post.DAO.posts import Posts
 
-logging.basicConfig(filename="basic.log", level=logging.INFO)
+logging.basicConfig(filename="logs/basic.log", level=logging.INFO)
 user_feed_app = Blueprint('user_feed', __name__, template_folder='templates', static_folder='static')
 posts = Posts()
 
