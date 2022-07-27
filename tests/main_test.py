@@ -8,12 +8,12 @@ class TestMain:
 
     @pytest.fixture
     def post_dao(self):
-        posts_instance = Posts('post_mock.json')
+        posts_instance = Posts()
         return posts_instance
 
     @pytest.fixture
     def comment_dao(self):
-        comment_instance = Comment('comment_mock.json')
+        comment_instance = Comment()
         return comment_instance
 
     def test_get_all_types(self, post_dao):
