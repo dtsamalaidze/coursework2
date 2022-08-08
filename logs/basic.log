@@ -88,3 +88,82 @@ INFO:werkzeug:127.0.0.1 - - [27/Jul/2022 21:45:24] "[36mGET /static/css/styles.
 INFO:werkzeug:127.0.0.1 - - [27/Jul/2022 21:45:24] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [27/Jul/2022 21:45:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [27/Jul/2022 21:45:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 352-245-915
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:13:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:13:54] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:13:54] "GET /static/img/magnifying_glass.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:13:54] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:13:54] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:13:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Открываю станицу с постами пользователя: leo
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:05] "GET /user_feed/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:05] "GET /user_feed/static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:05] "GET /user_feed/static/img/magnifying_glass.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:05] "[36mGET /user_feed/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:05] "[36mGET /user_feed/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:08] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:09] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:09] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:10] "GET /search/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:10] "GET /search/static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:14] "GET /search/?search=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:14] "[36mGET /search/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:14] "[36mGET /search/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:14] "[36mGET /search/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:28] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:28] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:28] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:28] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с постами пользователя: leo
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:31] "GET /user_feed/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:31] "[36mGET /user_feed/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:31] "[36mGET /user_feed/static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:31] "[36mGET /user_feed/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:31] "[36mGET /user_feed/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:43] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:43] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:43] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:43] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:47] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:47] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:47] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:14:47] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:root:Открываю станицу с индексом: 5
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:02] "GET /post/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:02] "GET /post/static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:02] "[36mGET /post/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:02] "[36mGET /post/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:11] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:13] "GET /search/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:13] "[36mGET /search/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:17] "[32mGET /search?search=ар HTTP/1.1[0m" 308 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:17] "GET /search/?search=ар HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:17] "[36mGET /search/static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:17] "[36mGET /search/static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:17] "[36mGET /search/static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:34] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Aug/2022 00:15:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://localhost:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-904-533
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2022 22:23:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2022 22:23:23] "[36mGET /static/img/magnifying_glass.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2022 22:23:23] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2022 22:23:23] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Aug/2022 22:23:23] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
