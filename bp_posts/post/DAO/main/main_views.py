@@ -8,3 +8,5 @@ posts = Posts()
 def imdex_page():
     post = posts.get_posts_all()
     return render_template('index.html', posts=post)
+
+
